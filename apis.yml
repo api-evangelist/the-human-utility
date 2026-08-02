@@ -1,8 +1,30 @@
 aid: the-human-utility
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-human-utility.png
 name: The Human Utility
-description: The Human Utility is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  The Human Utility (formerly the Detroit Water Project) is a Y Combinator-backed
+  not-for-profit organization founded in 2014 by Tiffani Ashley Bell whose mission
+  is to preserve human dignity by increasing water affordability for families across
+  the United States. It matches families who are behind on their water bills with
+  donors who want to help, paying utility companies directly on their behalf through
+  crowdfunded donations, community-building, and policy action. Operating in Detroit,
+  Baltimore, and dozens of other cities, it has helped thousands of households avoid
+  water shutoffs. The Human Utility runs a public-facing web application for donors
+  and recipients rather than a developer-facing API product; its source code lives in
+  the humanutility GitHub organization. This profile was surfaced as a Y Combinator
+  portfolio company and enriched with identity and link details; no public API surface
+  was found.
 url: https://raw.githubusercontent.com/api-evangelist/the-human-utility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Non-Profit
+- Water
+- Utilities
+- Social Impact
+- Crowdfunding
+- Civic Tech
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/the-human-utility-domain-security.yml
+- type: Website
+  url: https://www.detroitwaterproject.org/
+- type: GitHubOrganization
+  url: https://github.com/humanutility
+- type: TermsOfService
+  url: https://www.detroitwaterproject.org/terms
+- type: Support
+  url: https://www.detroitwaterproject.org/faqs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
