@@ -37,6 +37,9 @@ description: >-
   portfolio company and enriched with identity and link details; no public API surface
   was found.
 url: https://raw.githubusercontent.com/api-evangelist/the-human-utility/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was surfaced as a Y Combinator portfolio company and enriched with identity and link details; no public API surface was found."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
